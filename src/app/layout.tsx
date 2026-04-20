@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "関西大学文化フェスティバルスタンプ企画",
   metadataBase: new URL("https://stamprally-two.vercel.app"),
   verification: {
-    google: "2E-kJcAWoub6kiSqh3JYRzEF2xQygFJfP5a564J7ngE",
+    google: "wR5qrns93sYtbayKgnexSK_DF9yyMDBcj5b5rpNIyE4",
   },
   alternates: {
     canonical: "/",
