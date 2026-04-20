@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import AuthContext from "./context/AuthContext";
 import AuthGuard from "./components/auth/authGuard";
+import { siteMetadataBase } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: {
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Kansai Univ Stamp",
   },
   description: "関西大学文化フェスティバルスタンプ企画",
-  metadataBase: new URL("https://stamprally-two.vercel.app"),
+  metadataBase: siteMetadataBase,
   verification: {
     google: "wR5qrns93sYtbayKgnexSK_DF9yyMDBcj5b5rpNIyE4",
   },
