@@ -17,6 +17,7 @@ import { Collections } from "@mui/icons-material";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Stamps } from "@prisma/client";
+import { Session } from "inspector/promises";
 
 // スタンプ名のみの情報（表示用）
 const stampNames = {
